@@ -1,13 +1,16 @@
+
+/*ESTILOS NAVBAR*/
 .o-nav-home{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     color:black;
-    background-color: blanchedalmond;
-    border: solid 1px black;
+    background-color: white;
+    
 }
 .o-nav-home{
     font-size: medium;
+    height: 4rem;
 }
 .o-img-home{
     display: flex;
@@ -18,18 +21,17 @@
     justify-content: center;
     align-items: center;
 }
-.o-nav-right.o-ul-home{
-  
 
-}
 .o-ul-home{
     display: flex;
+    margin: 0;
 }
 .o-li-home{
     text-decoration: none;
     list-style: none;
     margin: 1.5rem;
 }
+/*ESTILO BODY*/
 
 .o-container-body-home{
     display: flex;
@@ -37,28 +39,72 @@
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center; 
-    background-image: url("../../img/bgelement.png");
+ 
+    
     
 }
-
+/*ESTILOS CONTAINER IZQUIERDO*/
 .o-container-left{
    
+    display: flex;
+    text-align: center;
+    flex-direction: column;
     width: 50%;
     float: left;
+    background-repeat: no-repeat;
+    background-image: url("../../img/bgelement.png");
+    background-position: center;
+    background-size: 24rem;
 }
-o-detail-left{
+
+.o-paragraph{
+
+    margin: 1rem;
+    color: grey;
+}
+.o-detail-left{
     display: flex;
     flex-direction: column;
     margin: 4rem;
 }
+/*CONTAINER DERECHO */
 
 .o-container-right{
     width: 50%;
     float: right;
+    text-align: center;
 }
 
+/*ESTILOS FOOTER*/
 .o-footer-home{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
+
+.o-img-right{
+
+    height: 20rem;
+}
+.o-text-footer-l{
+
+    font-size: 0.7rem;
+    color: white;
+}
+
+/*ESTILO BOTON*/
+.o-btn-login{
+
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #458FF6;
+    border: none;
+    outline: none;
+    height: 1.5rem;
+    width: 6rem;
+}
+.button:hover {
+    background-color: #3665F5; 
+    color: white;
+  }

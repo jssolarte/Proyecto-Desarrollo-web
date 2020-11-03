@@ -33,38 +33,40 @@ function Home(){
                 
                 <div className="o-detail-left">
                  <h1>Actividades <br></br> lúdicas</h1>
-                  <p>
-                    Nuestra meta es ayudar a las personas mayores, ofreciéndoles distintas actividades para pasar su tiempo en casa.
+                  <p className="o-paragraph">
+                    Nuestra meta es ayudar <br></br>  a las personas mayores,<br></br>ofreciéndoles distintas <br></br> actividades para  <br></br> su tiempo en casa.
                    </p>
+
+                   <div><button className="o-btn-login">Iniciar Sesión</button></div>
                 </div> 
-                <div><button>Iniciar Sesión</button></div>
+                
                </div>
                
                  <div className="o-container-right">
-                   <img src={imgHome}></img>
+                   <img className="o-img-right" src={imgHome}></img>
                  </div>
               </div> 
 
               <div className="o-footer-home">
                   <div>
-                    <h3>GrandParents</h3>
-                    <p>grandparents enjoy 2020 derechos reservados</p>
+                    <h3 className="o-text-footer-l" >GrandParents</h3>
+                    <p className="o-text-footer-l"> ©Grandparents Enjoy 2020. Derechos reservados</p>
                   </div>
                   <div> 
-                    <ul> <p>Compañia</p>
-                      <li>Conócenos</li>
-                      <li>Testimonios</li>
-                      <li>Equipo de trabajo</li>
-                      <li>Descargas</li>
+                    <ul> <p className="o-text-footer-l">Compañia</p>
+                      <li className="o-text-footer-l">Conócenos</li>
+                      <li className="o-text-footer-l">Testimonios</li>
+                      <li className="o-text-footer-l">Equipo de trabajo</li>
+                      <li className="o-text-footer-l">Descargas</li>
 
                     </ul>
                   </div>
                   <div>
-                   <ul><p>Ayuda</p>
-                      <li>Personas a cargo</li>
-                      <li>Llamanos</li>
-                      <li>Instrucciones</li>
-                      <li>Como funciona</li>
+                   <ul><p className="o-text-footer-l">Ayuda</p>
+                      <li className="o-text-footer-l">Personas a cargo</li>
+                      <li className="o-text-footer-l">Llamanos</li>
+                      <li className="o-text-footer-l">Instrucciones</li>
+                      <li className="o-text-footer-l">Como funciona</li>
                    </ul>
                   </div>
 
