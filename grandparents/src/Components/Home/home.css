@@ -1,0 +1,19 @@
+.o-nav-home{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color:black;
+}
+.o-nav-home{
+    font-size: medium;
+}
+.o-img-home{
+    display: flex;
+}
+.o-ul-home{
+    display: flex;
+}
+.o-li-home{
+    text-decoration: none;
+    list-style: none;
+}
