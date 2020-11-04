@@ -8,6 +8,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Actividades from './Components/Home/actividades';
 
 // const Router = () => (
 //   <BrowserRouter>
@@ -22,10 +23,22 @@ import {
 
 function App() {
   return (
-    <Router path="/" exact>
-    <Home></Home>
-    
+    <Router>
+      <Switch>
+         <Route path="/home">
+           <Home></Home>
+         </Route>
+         <Route path="/login">
+          <Login></Login>
+         </Route>
+         <Route path="/actividades">
+          <Actividades></Actividades>
+         </Route>
+      </Switch>
     </Router>
+    
+    
+   
     
   );
 }

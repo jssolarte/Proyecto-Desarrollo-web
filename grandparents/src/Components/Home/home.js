@@ -1,4 +1,5 @@
 import React from 'react';
+import Actividades from '../Home/actividades'
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,7 +19,7 @@ function Home(){
       
       <Router>
         <Switch>
-          <Router path="/home" exact>
+          <Route path="/home" exact>
             <div className="o-container-home">  
               <div>
               <nav className="o-nav-home">
@@ -34,10 +35,10 @@ function Home(){
               </div>  
                <div className="o-nav-right">
                 <ul className="o-ul-home">
-                  <li className="o-li-home"><Link to="/home">Inicio</Link> </li>
-                  <li className="o-li-home">Actividades</li>
-                  <li className="o-li-home">Testimonios</li>
-                  <li className="o-li-home">Conócenos</li>
+                  <Link to="/" className="o-li-home">Inicio</Link>
+                  <Link to="/actividades" className="o-li-home">Actividades</Link>
+                  <Link className="o-li-home">Testimonios</Link>
+                  <Link className="o-li-home">Conócenos</Link>
                 </ul>
                </div>
            </nav>
@@ -53,9 +54,11 @@ function Home(){
                     Nuestra meta es ayudar <br></br>  a las personas mayores,<br></br>ofreciéndoles distintas <br></br> actividades para  <br></br> su tiempo en casa.
                    </p>
 
-                   <div><button className="o-btn-login">Iniciar Sesión</button></div>
+                   <div><Link><button className="o-btn-login">Iniciar Sesión</button></Link> </div>
+
+                   <Link to="/login" className="o-btn-login" href="login.js">Inicio sesion</Link>
                 </div> 
-                <div><button>Iniciar Sesión</button></div>
+               
                </div>
                
                  <div className="o-container-right">
@@ -88,7 +91,7 @@ function Home(){
 
               </div>
          </div>
-         </Router>
+         </Route>
         </Switch>
         </Router> 
        

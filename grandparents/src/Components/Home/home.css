@@ -103,6 +103,7 @@
     outline: none;
     height: 1.5rem;
     width: 6rem;
+    cursor: pointer;
 }
 .button:hover {
     background-color: #3665F5; 
