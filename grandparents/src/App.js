@@ -67,7 +67,7 @@ function App() {
       <Route exact path="/home" exact>
       <Home></Home>
       </Route>
-      <Route path="/">
+      <Route path="/" component={Home}>
       <Home />
       </Route>
       </Switch>
