@@ -105,19 +105,15 @@
 /*ESTILO LOGIN*/
 
 .o-container-login {
-  background: url(../../img/home.png);
+  background: url(../../img/imgopacidad.png);
   height: 24rem;
   margin: 0.5rem;
   justify-content: center;
   background-size: 24rem;
+  background-repeat: no-repeat;
 }
 
-    background: url(../../img/home.png);
-    height: 24rem;
-    margin: 0.5rem;
-    justify-content: center;
-    background-size: 24rem;
-    background-repeat: no-repeat;
+   
     
 
 /*Estilos pantalla actividades*/
