@@ -104,6 +104,7 @@
     height: 1.5rem;
     width: 6rem;
     cursor: pointer;
+    margin: 0.3rem;
 }
 .button:hover {
     background-color: #3665F5; 
@@ -119,14 +120,22 @@
     margin: 0.5rem;
     justify-content: center;
     background-size: 24rem;
+    background-repeat: no-repeat;
     
 
   }
 
   .o-form-login{
-    opacity: 100%;
+   
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100%;
+  }
+
+  .o-forms-text{
+
+    margin: 1rem;
+
   }

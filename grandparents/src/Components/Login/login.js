@@ -38,16 +38,22 @@ import {
                </div>
                
                  <div className="o-container-right o-container-login">
-               
-                <div className="o-container-form-login"> 
-                        <form className="o-form-login">
-                        <label>Usuario: <input type="text" name="name"></input></label>
-                        <label>Contraseña: <input type="password" name="password"></input></label>
-                            <input type="submit" value="Iniciar Sesión"></input>
-                            <input type="submit" value="Invitado"></input>
-
+                                               
+                          <form className="o-form-login">
+                            <div className="o-forms-container">
+                          <div className="o-forms-text">
+                          
+                              <label>Usuario: <br></br> <input type="text" name="name"></input></label><br></br>
+                              <label>Contraseña:<br></br> <input type="password" name="password"></input></label><br></br>
+                        </div>
+                        <div className="o-forms-btn">
+                            <input className="o-btn-login" type="submit" value="Iniciar Sesión"></input><br></br>
+                            <input className="o-btn-login"  type="submit" value="Invitado"></input>
+                        </div>
+                        </div>
                         </form>
-                        </div>  
+                      
+                        
                  </div>
               </div> 
 
