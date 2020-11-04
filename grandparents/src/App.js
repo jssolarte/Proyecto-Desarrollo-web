@@ -53,9 +53,7 @@ function App() {
  
       <Switch>
       
-      <Route path="/home" exact>
-      <Home></Home>
-      </Route>
+      
       <Route path="/login">
        <Login></Login>
       </Route>
@@ -64,11 +62,11 @@ function App() {
       </Route>
       <Route path="/actividadFisica">
       <ActividadFisica></ActividadFisica>
-     </Route>
-      <Route path="/">
+      </Route>
+      <Route path="/home" exact>
       <Home></Home>
       </Route>
-      <Route path="">
+      <Route path="/">
       <Home></Home>
       </Route>
       </Switch>
