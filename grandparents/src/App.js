@@ -11,7 +11,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Actividades from './Components/Home/actividades';
+import Actividades from './Components/Home/Actividades/actividades';
+import ActividadFisica from './Components/Home/Actividades/actividadFisica';
 
 // const Router = () => (
 //   <BrowserRouter>
@@ -61,6 +62,9 @@ function App() {
       <Route path="/actividades">
        <Actividades></Actividades>
       </Route>
+      <Route path="/actividadFisica">
+      <ActividadFisica></ActividadFisica>
+     </Route>
       <Route path="/">
       <Home></Home>
       </Route>

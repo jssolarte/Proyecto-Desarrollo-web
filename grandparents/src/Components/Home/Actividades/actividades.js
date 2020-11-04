@@ -5,12 +5,12 @@ import {
     Route,
     Link
   } from "react-router-dom";
-import imglogo from '../../../src/logo.svg';
-import imgHome from '../../img/home.png';
-import bgelement from '../../img/bgelement.png'
-import imgFisica from '../../img/fisica.png';
-import imgLudica from '../../img/ludicas.png';
-import imgEstadistica from '../../img/estadistica.png'
+import imglogo from '../../../../src/logo.svg';
+import imgHome from '../../../img/home.png';
+import bgelement from '../../../img/bgelement.png'
+import imgFisica from '../../../img/fisica.png';
+import imgLudica from '../../../img/ludicas.png';
+import imgEstadistica from '../../../img/estadistica.png'
 
 
 function Actividades(){
@@ -28,11 +28,11 @@ function Actividades(){
             </div>
 
             <div className="o-cards-activity">
-                <div className="o-detail-activity">
+          <Link to="/actividadFisica " className="o-link"> <div className="o-detail-activity">
                 <img className="o-img-activity" src={imgFisica}></img>
                 <h2 className="o-h2-activity">Actividades fisicas</h2>
                 <p className="o-p-detail-activity">Aquí puedes comenzar a hacer tus actividades físicas.</p>
-                </div>
+                </div></Link>
 
                 <div className="o-detail-activity">
                 <img className="o-img-activity" src={imgLudica}></img>

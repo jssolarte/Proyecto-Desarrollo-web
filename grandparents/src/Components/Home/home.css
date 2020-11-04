@@ -193,3 +193,16 @@
     margin: 1rem;
   }
   
+
+  .o-link{
+      text-decoration: none;
+      list-style: none;
+      color: black;
+  }
+
+  .o-video{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }

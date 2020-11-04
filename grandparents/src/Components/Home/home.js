@@ -1,5 +1,5 @@
 import React from 'react';
-import Actividades from '../Home/actividades'
+import Actividades from './Actividades/actividades'
 import {
   BrowserRouter as Router,
   Switch,
@@ -35,9 +35,8 @@ function Home(){
                     Nuestra meta es ayudar <br></br>  a las personas mayores,<br></br>ofreciéndoles distintas <br></br> actividades para  <br></br> su tiempo en casa.
                    </p>
 
-                   <div><Link><button className="o-btn-login">Iniciar Sesión</button></Link> </div>
+                   <div><Link to="/login" href="login.js"><button className="o-btn-login">Iniciar Sesión</button></Link> </div>
 
-                   <Link to="/login" className="o-btn-login" href="login.js">Inicio sesion</Link>
                 </div> 
                
                </div>

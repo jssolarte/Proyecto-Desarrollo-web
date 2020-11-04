@@ -25,14 +25,9 @@ import {
               <div className="o-container-left">
                 
                 <div className="o-detail-left">
-                 <h1>Actividades <br></br> lúdicas</h1>
-                  <p className="o-paragraph">
-                    Nuestra meta es ayudar <br></br>  a las personas mayores,<br></br>ofreciéndoles distintas <br></br> actividades para  <br></br> su tiempo en casa.
-                   </p>
-
-                   <div><Link><button className="o-btn-login">Iniciar Sesión</button></Link> </div>
-
-                   <Link to="/login" className="o-btn-login" href="login.js">Inicio sesion</Link>
+                 <h1>Ingresa tus <br></br> datos o <br></br> inicia como <br></br> invitado</h1>
+                  
+                  
                 </div> 
                
                </div>
