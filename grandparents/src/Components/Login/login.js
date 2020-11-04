@@ -37,9 +37,8 @@ import {
                
                </div>
                
-                 <div className="o-container-right">
-                   <img className="o-img-right" src={imgHome}></img>
-
+                 <div className="o-container-right o-container-login">
+                
                         <form>
                         <label>Usuario: <input type="text" name="name"></input></label>
                         <label>Contraseña: <input type="password" name="password"></input></label>

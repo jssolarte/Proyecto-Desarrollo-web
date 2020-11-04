@@ -109,3 +109,15 @@
     background-color: #3665F5; 
     color: white;
   }
+
+  /*ESTILO LOGIN*/
+
+  .o-container-login{
+
+    background: url(../../img/home.png);
+    height: 24rem;
+    margin: 0.5rem;
+    justify-content: center;
+    background-size: 24rem;
+
+  }
