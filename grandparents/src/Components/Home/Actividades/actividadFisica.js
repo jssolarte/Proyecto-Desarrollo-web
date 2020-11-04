@@ -15,7 +15,7 @@ function ActividadFisica(){
                 <div>
                 <ReactPlayer className="o-video" url='https://www.youtube.com/watch?v=SBN96KqyqrU&ab_channel=FisioterapiaQuer%C3%A9taro'
                 >
-                    <h1>Hola mundo</h1>
+                   
                 </ReactPlayer>
                 </div>
                 </Route>
