@@ -119,5 +119,14 @@
     margin: 0.5rem;
     justify-content: center;
     background-size: 24rem;
+    
 
+  }
+
+  .o-form-login{
+    opacity: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
