@@ -21,7 +21,7 @@ function Actividades(){
   <Switch>
   <Route path="/actividades">
  
-        <div>
+        <div className="o-container-activities">
             <div className="o-title-p-activity"> 
              <h1 className="o-title-h1">Nuestros servicios</h1>
                 <p className="o-p-activity">Nuestra empresa se caracteriza por brindar bienestar emocional y lúdico a las personas mayores, así como un espacio en el que se pueden divertir y desconectar de la realidad.</p>       

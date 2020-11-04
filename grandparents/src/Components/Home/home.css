@@ -133,6 +133,12 @@
   }
 
   /*Estilos pantalla actividades*/
+
+  .o-container-activities{
+
+    margin: 2rem;
+
+  }
   .o-title-p-activity {
     display: flex;
     justify-content: center;
@@ -141,15 +147,17 @@
     
   }
   .o-title-h1 {
-    font-size: medium;
+    
     font-weight: bold;
     margin: 1rem;
   }
   
   .o-p-activity {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: lighter;
     margin: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   .o-cards-activity {
     display: flex;
@@ -160,13 +168,14 @@
     margin-bottom: 2rem;
     
   }
+  /*CARD ESTILOS*/
   .o-detail-activity {
-    width: 350px;
-    height: 280px;
-    left: 143px;
-    top: 438px;
-    border: solid 1px #67c3f3;
-    border-radius: 20px;
+    width: 15rem;
+    height: 18rem;
+      border: solid 1px #67c3f3;
+    border-radius: 1rem;
+    align-items: center;
+      text-align: center;
   }
   .o-img-activity {
   
