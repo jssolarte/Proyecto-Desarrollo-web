@@ -143,11 +143,13 @@
   .o-title-h1 {
     font-size: medium;
     font-weight: bold;
+    margin: 1rem;
   }
   
   .o-p-activity {
     font-size: 24px;
     font-weight: lighter;
+    margin: 1rem;
   }
   .o-cards-activity {
     display: flex;
@@ -155,14 +157,16 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 2rem;
+    
   }
   .o-detail-activity {
     width: 350px;
-    height: 354px;
+    height: 280px;
     left: 143px;
     top: 438px;
     border: solid 1px #67c3f3;
-    margin: 1rem;
+    border-radius: 20px;
   }
   .o-img-activity {
   
@@ -170,6 +174,13 @@
     height: 71.15px;
     left: 182px;
     top: 495px;
+    margin: 1rem;
+  }
+  .o-h2-activity{
+    margin: 1rem;
+  }
+
+  .o-p-detail-activity{
     margin: 1rem;
   }
   

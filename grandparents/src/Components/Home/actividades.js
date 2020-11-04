@@ -30,20 +30,20 @@ function Actividades(){
             <div className="o-cards-activity">
                 <div className="o-detail-activity">
                 <img className="o-img-activity" src={imgFisica}></img>
-                <h2>Actividades fisicas</h2>
-                <p>Aquí puedes comenzar a hacer tus actividades físicas.</p>
+                <h2 className="o-h2-activity">Actividades fisicas</h2>
+                <p className="o-p-detail-activity">Aquí puedes comenzar a hacer tus actividades físicas.</p>
                 </div>
 
                 <div className="o-detail-activity">
                 <img className="o-img-activity" src={imgLudica}></img>
-                <h2>Actividades fisicas</h2>
-                <p>Aquí puedes comenzar a hacer tus actividades físicas.</p>
+                <h2  className="o-h2-activity">Actividades Lúdicas</h2>
+                <p className="o-p-detail-activity">Aquí puedes escoger diferentes juegos lúdicos.</p>
                 </div>
                 
                 <div className="o-detail-activity">
                 <img className="o-img-activity" src={imgEstadistica}></img>
-                <h2>Actividades fisicas</h2>
-                <p>Aquí puedes comenzar a hacer tus actividades físicas.</p>
+                <h2  className="o-h2-activity">Estadísticas</h2>
+                <p className="o-p-detail-activity">Aquí puedes consultar las estadísticas y resultados de tus entrenamientos.</p>
                 </div>
             </div>
 
