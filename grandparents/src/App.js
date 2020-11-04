@@ -2,6 +2,9 @@
 import './App.css';
 import Home from './Components/Home/home';
 import Login from './Components/Login/login';
+import imglogo from './logo.svg';
+import imgHome from './img/home.png';
+import bgelement from './img/bgelement.png'
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,17 +26,41 @@ import Actividades from './Components/Home/actividades';
 
 function App() {
   return (
+    
     <Router>
+
+    <nav className="o-nav-home">
+    <div className="o-nav-left">
+     <img className="o-img-home"
+       src={imglogo}
+       width="35"
+       height="35"
+       className="d-inline-block align-top"
+       alt="React Bootstrap logo"
+        />
+      <p>GrandParents Enjoy</p>
+    </div>  
+     <div className="o-nav-right">
+      <ul className="o-ul-home">
+        <Link to="/home" className="o-li-home">Inicio</Link>
+        <Link to="/actividades" className="o-li-home">Actividades</Link>
+        <Link className="o-li-home">Testimonios</Link>
+        <Link className="o-li-home">Conócenos</Link>
+      </ul>
+     </div>
+ </nav>
+ 
       <Switch>
-         <Route path="/home">
-           <Home></Home>
-         </Route>
+      <Route path="/home">
+      <Home></Home>
+      </Route>
+      <Route path="/actividades">
+       <Actividades></Actividades>
+      </Route>
          <Route path="/login">
           <Login></Login>
          </Route>
-         <Route path="/actividades">
-          <Actividades></Actividades>
-         </Route>
+         
       </Switch>
     </Router>
     

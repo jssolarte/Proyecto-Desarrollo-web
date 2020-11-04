@@ -18,30 +18,11 @@ function Home(){
     return(
       
       <Router>
+    
         <Switch>
-          <Route path="/home" exact>
+          <Route path="/home">
             <div className="o-container-home">  
               <div>
-              <nav className="o-nav-home">
-              <div className="o-nav-left">
-               <img className="o-img-home"
-                 src={imglogo}
-                 width="35"
-                 height="35"
-                 className="d-inline-block align-top"
-                 alt="React Bootstrap logo"
-                  />
-                <p>GrandParents Enjoy</p>
-              </div>  
-               <div className="o-nav-right">
-                <ul className="o-ul-home">
-                  <Link to="/" className="o-li-home">Inicio</Link>
-                  <Link to="/actividades" className="o-li-home">Actividades</Link>
-                  <Link className="o-li-home">Testimonios</Link>
-                  <Link className="o-li-home">Conócenos</Link>
-                </ul>
-               </div>
-           </nav>
         </div>
       
            
