@@ -51,16 +51,19 @@ function App() {
  </nav>
  
       <Switch>
-      <Route path="/home">
+      
+      <Route path="/home" exact>
       <Home></Home>
+      </Route>
+      <Route path="/login">
+       <Login></Login>
       </Route>
       <Route path="/actividades">
        <Actividades></Actividades>
       </Route>
-         <Route path="/login">
-          <Login></Login>
-         </Route>
-         
+      <Route path="/">
+      <Home></Home>
+      </Route>
       </Switch>
     </Router>
     

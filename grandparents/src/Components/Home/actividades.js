@@ -23,25 +23,25 @@ function Actividades(){
  
         <div>
             <div className="o-title-p-activity"> 
-             <h1>Nuestros servicios</h1>
-                <p>Nuestra empresa se caracteriza por brindar bienestar emocional y lúdico a las personas mayores, así como un espacio en el que se pueden divertir y desconectar de la realidad.</p>       
+             <h1 className="o-title-h1">Nuestros servicios</h1>
+                <p className="o-p-activity">Nuestra empresa se caracteriza por brindar bienestar emocional y lúdico a las personas mayores, así como un espacio en el que se pueden divertir y desconectar de la realidad.</p>       
             </div>
 
             <div className="o-cards-activity">
-                <div className="activity-physical">
-                <img className="o-img-right" src={imgFisica}></img>
+                <div className="o-detail-activity">
+                <img className="o-img-activity" src={imgFisica}></img>
                 <h2>Actividades fisicas</h2>
                 <p>Aquí puedes comenzar a hacer tus actividades físicas.</p>
                 </div>
 
-                <div className="activity-playful">
-                <img className="o-img-right" src={imgLudica}></img>
+                <div className="o-detail-activity">
+                <img className="o-img-activity" src={imgLudica}></img>
                 <h2>Actividades fisicas</h2>
                 <p>Aquí puedes comenzar a hacer tus actividades físicas.</p>
                 </div>
                 
-                <div className="activity-statistics">
-                <img className="o-img-right" src={imgEstadistica}></img>
+                <div className="o-detail-activity">
+                <img className="o-img-activity" src={imgEstadistica}></img>
                 <h2>Actividades fisicas</h2>
                 <p>Aquí puedes comenzar a hacer tus actividades físicas.</p>
                 </div>
