@@ -55,16 +55,16 @@ function App() {
       
       
       
-      <Route path="/actividades">
+      <Route exact path="/actividades">
        <Actividades></Actividades>
       </Route>
-      <Route path="/actividadFisica">
+      <Route exact path="/actividadFisica">
       <ActividadFisica></ActividadFisica>
       </Route>
-      <Route path="/login">
+      <Route exact path="/login">
        <Login></Login>
       </Route>
-      <Route path="/home" exact>
+      <Route exact path="/home" exact>
       <Home></Home>
       </Route>
       <Route path="/">
